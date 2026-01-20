@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 # ----------------------------------------------------------------
 # Ensure the password ('1234') matches what you set for your Postgres server.
 # Ensure the database ('booksummarise') exists.
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:1234@localhost/booksummarise"
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL

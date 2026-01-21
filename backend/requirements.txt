@@ -47,3 +47,4 @@ faiss-cpu
 torch
 slowapi
 limits
+PyMuPDF

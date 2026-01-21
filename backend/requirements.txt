@@ -45,3 +45,5 @@ scikit-learn
 sentence-transformers
 faiss-cpu
 torch
+slowapi
+limits

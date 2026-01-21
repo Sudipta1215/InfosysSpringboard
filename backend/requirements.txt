@@ -22,6 +22,7 @@ langchain
 langchain-community
 langchain-groq
 langchain-huggingface
+nltk
 
 # --- Document Processing ---
 beautifulsoup4
@@ -40,7 +41,7 @@ matplotlib
 plotly
 scikit-learn
 
-# --- Vector Store & Embeddings ---
+# --- Vector Store ---
 sentence-transformers
 faiss-cpu
 torch
